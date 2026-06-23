@@ -92,7 +92,7 @@ Incluye:
 ![System](/images/employee.png)
 
 ### Asistencia
-![System](/images/assitance.png)
+![System](/images/assistance.png)
 
 ### Users
 ![System](/images/users.png)
