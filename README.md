@@ -67,11 +67,6 @@ Incluye:
 - PDF
 - Excel (.xlsx)
 
-### Tooling
-
-- NPM
-- Git & GitHub
-
 ## Flujo del Sistema
 
 1. Registrar trabajadores en el sistema.
