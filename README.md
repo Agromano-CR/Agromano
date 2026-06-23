@@ -71,133 +71,6 @@ Incluye:
 
 - NPM
 - Git & GitHub
-- ESLint
-- Prettier
-
-## Arquitectura del Proyecto
-
-El proyecto está dividido en dos grandes módulos:
-
-### Backend (Express + Prisma)
-
-```bash
-/src
-├── domain                 # Entidades y contratos
-├── application            # Casos de uso
-├── infrastructure
-│   ├── database
-│   ├── repositories
-│   ├── prisma
-│   └── services
-├── presentation
-│   ├── controllers
-│   ├── routes
-│   └── middlewares
-├── shared                 # Utilidades y excepciones
-└── main.ts
-```
-
-Esta arquitectura permite:
-
-- Separación clara de responsabilidades
-- Bajo acoplamiento
-- Escalabilidad
-- Facilidad para pruebas y mantenimiento
-
-### Frontend (React)
-
-```bash
-/src
-├── application            # Casos de uso
-├── domain                 # Entidades y contratos
-├── infrastructure
-│   ├── api
-│   ├── repositories
-│   └── services
-├── presentation
-│   ├── components
-│   ├── pages
-│   ├── hooks
-│   └── layouts
-├── shared
-└── main.tsx
-```
-
-La arquitectura del frontend sigue los principios de Clean Architecture, facilitando la reutilización de componentes y la separación entre lógica de negocio e interfaz de usuario.
-
-## Requisitos Previos
-
-Asegúrate de tener instalado:
-
-- Node.js >= 18
-- NPM
-- PostgreSQL
-
-## Instalación
-
-Clonar el repositorio:
-
-```bash
-git clone https://github.com/sebastian-alpizar/agricultural-management-system.git
-cd agricultural-management-system
-```
-
-## Configuración del Backend
-
-```bash
-cd backend
-npm install
-```
-
-Copiar y configurar el archivo `.env`:
-
-```bash
-cp .env.example .env
-```
-
-Editar `.env`:
-
-```bash
-DATABASE_URL=
-PORT=
-```
-
-Ejecutar migraciones:
-
-```bash
-npx prisma migrate dev
-```
-
-Iniciar servidor:
-
-```bash
-npm run dev
-```
-
-## Configuración del Frontend
-
-```bash
-cd frontend
-npm install
-```
-
-Copiar variables de entorno:
-
-```bash
-cp .env.example .env
-```
-
-Configurar:
-
-```bash
-VITE_API_URL=
-```
-
-Iniciar aplicación:
-
-```bash
-npm run dev
-```
 
 ## Flujo del Sistema
 
@@ -214,8 +87,8 @@ npm run dev
 
 ```text
 docs/images/dashboard.png
-docs/images/workers.png
-docs/images/reports.png
+docs/images/employee.png
+docs/images/users.png
 ```
 
 ## Funcionalidades Clave
@@ -232,32 +105,6 @@ docs/images/reports.png
 - Exportación a Excel
 - Arquitectura limpia y escalable
 
-## Despliegue
-
-### Backend (Express)
-
-- Railway
-- Render
-- VPS
-
-Configurar:
-
-- Variables de entorno
-- Base de datos PostgreSQL
-
-### Frontend (React)
-
-Construir aplicación:
-
-```bash
-npm run build
-```
-
-Publicar en:
-
-- Vercel
-- Netlify
-
 ## Principios de Diseño
 
 El proyecto implementa **Clean Architecture** tanto en backend como en frontend, siguiendo principios de:
@@ -271,8 +118,6 @@ El proyecto implementa **Clean Architecture** tanto en backend como en frontend,
 - Facilidad de pruebas
 
 ## Autor
-
-**Desarrollado por Sebastián Alpízar Porras**
 
 GitHub: https://github.com/sebastian-alpizar  
 Email: sebastianalpiz@gmail.com
