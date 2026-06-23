@@ -85,11 +85,34 @@ Incluye:
 
 ## 📊 Ejemplos Visuales
 
-```text
-docs/images/dashboard.png
-docs/images/employee.png
-docs/images/users.png
-```
+### Dashboard
+![System](/images/dashboard.png)
+
+### Empleados
+![System](/images/employee.png)
+
+### Asistencia
+![System](/images/assitance.png)
+
+### Users
+![System](/images/users.png)
+
+### Operaciones de Fincas
+![System](/images/farms.png)
+
+### Parcelas
+![System](/images/plot.png)
+
+### Nómimas
+![System](/images/payroll.png)
+
+### Bonificaciones
+![System](/images/bonus.png)
+
+### Pre-Liquidaciones Detalles
+![System](/images/pre-liquidation-details.png)
+
+![System](/images/pre-liquidation-details2.png)
 
 ## Funcionalidades Clave
 
