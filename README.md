@@ -94,7 +94,7 @@ Incluye:
 ### Asistencia
 ![System](/images/assistance.png)
 
-### Users
+### Usuarios
 ![System](/images/users.png)
 
 ### Operaciones de Fincas
